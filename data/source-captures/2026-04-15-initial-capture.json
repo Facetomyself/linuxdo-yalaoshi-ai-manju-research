@@ -1,0 +1,152 @@
+{
+  "capturedAt": "2026-04-15T17:20:00+08:00",
+  "project": "linuxdo-yalaoshi-ai-manju-research",
+  "version": "v0.1-initial-capture",
+  "notes": [
+    "Direct fetch of https://linux.do/u/yalaoshi/summary was blocked by Cloudflare in this environment at capture time.",
+    "This capture intentionally stores short excerpts and metadata only; it is not a raw full-text archive.",
+    "Confidence reflects current source quality and attribution certainty, not truth certainty in the abstract."
+  ],
+  "items": [
+    {
+      "id": "LD-1449130-1",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet",
+      "confidence": "high",
+      "url": "https://linux.do/t/topic/1449130",
+      "title": "鸭老师应当有话说，虎嗅：第一批做AI漫剧的中年人，已经财务自由了?",
+      "excerpt": "1.靠这个财务自由不可能的，都是骗人的，但是能赚到钱是真的。平台是真给钱，每个人基础不一样，赚多赚少的问题，号能起来也跟自己的作品质量等有关系。",
+      "whyItMatters": "High-signal direct market judgment: rejects hype while affirming conditional profitability."
+    },
+    {
+      "id": "LD-1424398-1",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet",
+      "confidence": "high",
+      "url": "https://linux.do/t/topic/1424398",
+      "title": "【鸭老师】三句话，让我推掉了一个月赚20万的AI动漫的小项目（避坑帖）",
+      "excerpt": "聊的时候谈的是一个月10部局，每部剧100分钟，100-200块钱一分钟，加上他们公司给的补助一个月就是20w左右，签合同后先打40%预付款，中间在打30%，做完在打30%，",
+      "whyItMatters": "Captures the offer structure behind a seemingly lucrative project that he later judged as risky."
+    },
+    {
+      "id": "LD-1424398-2",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet",
+      "confidence": "medium",
+      "url": "https://linux.do/t/topic/1424398?page=2",
+      "title": "【鸭老师】三句话，让我推掉了一个月赚20万的AI动漫的小项目（避坑帖） / 第2页",
+      "excerpt": "坑倒是不会坑，我接了挺多也正常结算，问题就是这种价格和量和周期做不过来，肯定要外包出出去的。但凡要改就天塌了。",
+      "whyItMatters": "Strong operational caution: the main problem is delivery and revision risk, not scam risk."
+    },
+    {
+      "id": "LD-882423-1",
+      "kind": "primary",
+      "captureMethod": "exa-search-contents + tavily-snippet",
+      "confidence": "high",
+      "url": "https://linux.do/t/topic/882423",
+      "title": "【鸭老师】新的AI动画第一集做好了，人物完全保持一致性，看看这种有没有推流的！",
+      "excerpt": "如果没流量，下一集开始全做动态漫画的，动态漫画成本低，表达强，制作难度会少很多抽卡的环节，成本也会更低，求佬们给啊b点点赞，投个币，看看能不能推流！",
+      "whyItMatters": "Direct evidence that he treats format choice as a traffic/cost strategy, not just aesthetics."
+    },
+    {
+      "id": "LD-882423-1B",
+      "kind": "primary",
+      "captureMethod": "exa-search-contents",
+      "confidence": "high",
+      "url": "https://linux.do/t/topic/882423",
+      "title": "【鸭老师】新的AI动画第一集做好了，人物完全保持一致性，看看这种有没有推流的！",
+      "excerpt": "应该是不到100块钱，ai经过视频那一步好像真的没啥流量，我试试只弄漫画，成本就超低了。",
+      "whyItMatters": "Adds a concrete cost/traffic tradeoff signal."
+    },
+    {
+      "id": "LD-882423-2",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet",
+      "confidence": "medium",
+      "url": "https://linux.do/t/topic/882423?page=2",
+      "title": "【鸭老师】新的AI动画第一集做好了，人物完全保持一致性 / 第2页",
+      "excerpt": "我就是想看看ai能不能起流量，如果不行就开始用ai辅助出图，画师再图片的基础上修改，这样不用动脑去搞从0的原创挺快捷的，我这里有两个画师还没用起来。",
+      "whyItMatters": "Shows a possible AI-plus-human production fallback path."
+    },
+    {
+      "id": "LD-882423-3",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet",
+      "confidence": "medium",
+      "url": "https://linux.do/t/topic/882423?page=3",
+      "title": "【鸭老师】新的AI动画第一集做好了，人物完全保持一致性 / 第3页",
+      "excerpt": "我只能说目前能看到的ai作品我应该都可以做出来的，我对短视频平台还不太了解，慢慢摸索规则，不行就换一种方式，然后分享出来。",
+      "whyItMatters": "Suggests that distribution understanding, not generation ability alone, is the moving bottleneck."
+    },
+    {
+      "id": "LD-1160660-4",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet",
+      "confidence": "medium",
+      "url": "https://linux.do/t/topic/1160660?page=4",
+      "title": "【鸭老师】AI漫剧的政策终于来了，这不妥妥送钱么？ / 第4页",
+      "excerpt": "就很玄幻，随便一整几万十几万的播放， 精心制作的视频播放就一千以内，数据极不稳定，现在是一天两更（10-20S），鸭佬，除了多发还有其他办法吗？",
+      "whyItMatters": "High-value traffic volatility context inside an AI漫剧 policy thread; attribution still needs full-page verification."
+    },
+    {
+      "id": "LD-1160660-5",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet",
+      "confidence": "medium",
+      "url": "https://linux.do/t/topic/1160660?page=5",
+      "title": "【鸭老师】AI漫剧的政策终于来了，这不妥妥送钱么？ / 第5页",
+      "excerpt": "开局一张图，内容全靠编，我们团队这两天就去联系红果平台负责人拿个ip玩玩，这个价格已经是市场价了，朋友刚签了一个腾讯的漫画ip项目，有什么进展，",
+      "whyItMatters": "Potentially important platform/IP commercialization clue; must be re-verified against fuller context."
+    },
+    {
+      "id": "LD-1967898-1",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet",
+      "confidence": "medium",
+      "url": "https://linux.do/t/topic/1967898",
+      "title": "普通人做AI漫短剧的出路在哪里？",
+      "excerpt": "不知道论坛多少人用AI漫剧短剧赚到钱了？ 跟着【鸭老师】开始学做AI漫剧有2-3周了。 虽然现在能做出东西，但是我还是觉得，是即梦seedance2.0比较牛逼，",
+      "whyItMatters": "Evidence that his discussions are already influencing other makers' practice."
+    },
+    {
+      "id": "LD-1967898-2",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet",
+      "confidence": "low",
+      "url": "https://linux.do/t/topic/1967898?page=2",
+      "title": "普通人做AI漫短剧的出路在哪里？ / 第2页",
+      "excerpt": "就是批量落地的能力，花时间做五六分钟的短片和完成120分钟左右的长内容是不一样的，短的可以做精细，但长的需要做好分工和配合，很多时候需求不是几部剧而是",
+      "whyItMatters": "Very valuable industrialization point, but current attribution is not yet strong enough."
+    },
+    {
+      "id": "CTX-HUXIU-2026-01-10",
+      "kind": "context",
+      "captureMethod": "exa-search-contents",
+      "confidence": "medium",
+      "url": "https://www.huxiu.com/article/4825147.html",
+      "title": "第一批做AI漫剧的中年人，已经财务自由了?",
+      "excerpt": "2025年AI漫剧爆发式增长，以极低成本创造高收益，成为继短剧后的新风口，但行业乱象与风险并存。",
+      "whyItMatters": "Useful baseline for the hype narrative that yalaoshi explicitly pushes back against."
+    },
+    {
+      "id": "CTX-THEPAPER-2026-01-20",
+      "kind": "context",
+      "captureMethod": "exa-search-contents",
+      "confidence": "medium",
+      "url": "http://thepaper.cn/newsDetail_forward_32422498",
+      "title": "10人、45天、200万净利！AI漫剧疯涨，有人却想撤？",
+      "excerpt": "实践结果彻底否定了‘一人制片’的可行性。",
+      "whyItMatters": "Strong external context for the team/industrialization angle."
+    },
+    {
+      "id": "CTX-NETEASE-POLICY-2026-04-13",
+      "kind": "context",
+      "captureMethod": "exa-search-contents",
+      "confidence": "medium",
+      "url": "https://www.163.com/dy/article/KQDPRSRK0552POWV.html",
+      "title": "AI漫剧扶持政策一览！激励升级，平台开抢创作者",
+      "excerpt": "内容分成最高200%，单部200万投资，投入1亿补贴......面向AI漫剧的扶持计划，正一个接一个袭来。",
+      "whyItMatters": "Context for why makers on Linux.do are suddenly treating the space as commercially real."
+    }
+  ]
+}
