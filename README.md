@@ -6,6 +6,7 @@
 
 - 状态：`Phase 0 / 已建仓`
 - 时间：`2026-04-15`
+- 仓库：`https://github.com/Facetomyself/linuxdo-yalaoshi-ai-manju-research`
 - 性质：**长期任务，不是一次性总结**
 - 当前产出：
   - 初版研究范围

@@ -3,6 +3,9 @@
 ## 任务名
 Linux.do 用户「鸭老师 / yalaoshi」AI漫剧公开研究
 
+## 仓库地址
+https://github.com/Facetomyself/linuxdo-yalaoshi-ai-manju-research
+
 ## 任务性质
 长期、迭代式、证据驱动
 
