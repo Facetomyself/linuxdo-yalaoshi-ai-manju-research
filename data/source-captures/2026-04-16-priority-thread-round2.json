@@ -1,0 +1,54 @@
+{
+  "capturedAt": "2026-04-16T16:28:00+08:00",
+  "project": "linuxdo-yalaoshi-ai-manju-research",
+  "version": "v0.2-priority-thread-round2",
+  "notes": [
+    "This round focused narrowly on priority threads 1424398 and 882423 and tried to surface thread-level method/production signals rather than broad repo-wide background.",
+    "Search sources requested: exa, tavily.",
+    "Both sources succeeded in this round.",
+    "Some snippets still represent page-level or thread-level search excerpts and should not be treated as full-page archival captures."
+  ],
+  "searchAudit": {
+    "requestedSources": [
+      "exa",
+      "tavily"
+    ],
+    "succeededSources": [
+      "exa",
+      "tavily"
+    ],
+    "failedSources": []
+  },
+  "items": [
+    {
+      "id": "LD-1424398-1B",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet + exa-hit",
+      "confidence": "medium",
+      "url": "https://linux.do/t/topic/1424398",
+      "title": "【鸭老师】三句话，让我推掉了一个月赚20万的AI动漫的小项目（避坑帖）",
+      "excerpt": "先看我的教程，然后按照教程去临摹一个你想学习制作的作品，然后在做一个原创作品，在这个过程中你就掌握AI了，看多少课程都不如自己去做一下来的快。",
+      "whyItMatters": "Useful direct-practice learning signal: tutorial -> imitation -> original work, with a clear bias toward hands-on making over passive course consumption."
+    },
+    {
+      "id": "LD-1424398-5CTX",
+      "kind": "context",
+      "captureMethod": "tavily-search-snippet + exa-hit",
+      "confidence": "low",
+      "url": "https://linux.do/t/topic/1424398?page=5",
+      "title": "【鸭老师】三句话，让我推掉了一个月赚20万的AI动漫的小项目（避坑帖） / 第5页",
+      "excerpt": "鸭老师我是美工，之前做直播贴片多。求带！ ... 首先生图怎么都听不懂人话，简单的换个衣服都换不好，下载只有1k。",
+      "whyItMatters": "Not suitable as a yalaoshi viewpoint quote, but useful as thread context showing the thread is attracting practitioners looking for workflow help."
+    },
+    {
+      "id": "LD-882423-2C",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet + exa-hit",
+      "confidence": "medium",
+      "url": "https://linux.do/t/topic/882423?page=2",
+      "title": "【鸭老师】新的AI动画第一集做好了，人物完全保持一致性 / 第2页",
+      "excerpt": "我就是想看看ai能不能起流量，如果不行就开始用ai辅助出图，画师再图片的基础上修改，这样不用动脑去搞从0的原创挺快捷的，我这里有两个画师还没用起来。",
+      "whyItMatters": "Strengthens the interpretation that he treats AI-only production as conditional and keeps an AI-plus-human repair/collaboration fallback ready."
+    }
+  ]
+}

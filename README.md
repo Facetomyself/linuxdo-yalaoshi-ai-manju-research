@@ -14,7 +14,8 @@
   - 初始来源登记表
   - 首轮分析备忘
   - 首版《高置信观点清单》
-  - 二轮来源补抓记录
+  - 优先线程工作笔记（1424398 / 882423）
+  - 两轮来源补抓记录
   - 可继续接力的长期任务文档
 
 ## 这个仓库要解决什么问题
@@ -101,11 +102,13 @@
 │   ├── 01-initial-analysis.md
 │   ├── 02-methodology-and-roadmap.md
 │   ├── 03-source-register.md
-│   └── 04-high-confidence-viewpoint-list.md
+│   ├── 04-high-confidence-viewpoint-list.md
+│   └── 05-priority-thread-notes-1424398-882423.md
 └── data/
     └── source-captures/
         ├── 2026-04-15-initial-capture.json
-        └── 2026-04-16-search-round1.json
+        ├── 2026-04-16-search-round1.json
+        └── 2026-04-16-priority-thread-round2.json
 ```
 
 ## 来源与引用原则
