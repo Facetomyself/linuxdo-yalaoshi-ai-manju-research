@@ -1,0 +1,100 @@
+{
+  "capturedAt": "2026-04-16T16:15:00+08:00",
+  "project": "linuxdo-yalaoshi-ai-manju-research",
+  "version": "v0.2-search-round1",
+  "notes": [
+    "This round explicitly targeted high-priority Linux.do thread/page URLs and stored short excerpts plus attribution notes only.",
+    "Direct web_fetch attempts against priority linux.do topic URLs still returned Cloudflare 403 'Just a moment...' in this environment on 2026-04-16.",
+    "Search sources requested: exa, tavily, grok. Exa and Tavily succeeded; Grok failed with 502 via the configured proxy endpoint.",
+    "Confidence reflects current source quality and attribution certainty, not abstract truth certainty."
+  ],
+  "searchAudit": {
+    "requestedSources": [
+      "exa",
+      "tavily",
+      "grok"
+    ],
+    "succeededSources": [
+      "exa",
+      "tavily"
+    ],
+    "failedSources": [
+      {
+        "source": "grok",
+        "error": "502 Bad Gateway",
+        "endpoint": "http://proxy.zhangxuemin.work:8000/v1/chat/completions"
+      }
+    ]
+  },
+  "directFetchAudit": {
+    "attemptedUrls": [
+      "https://linux.do/t/topic/1449130",
+      "https://linux.do/t/topic/1424398",
+      "https://linux.do/t/topic/882423",
+      "https://linux.do/t/topic/1160660"
+    ],
+    "result": "blocked-by-cloudflare-403"
+  },
+  "items": [
+    {
+      "id": "LD-1424398-2",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet + exa-hit",
+      "confidence": "medium",
+      "url": "https://linux.do/t/topic/1424398?page=2",
+      "title": "【鸭老师】三句话，让我推掉了一个月赚20万的AI动漫的小项目（避坑帖） / 第2页",
+      "excerpt": "坑倒是不会坑，我接了挺多也正常结算，问题就是这种价格和量和周期做不过来，肯定要外包出出去的。但凡要改就天塌了。",
+      "whyItMatters": "Reconfirms that his objection is delivery/revision risk rather than simple distrust of payment settlement."
+    },
+    {
+      "id": "LD-1424398-3",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet + exa-hit",
+      "confidence": "medium",
+      "url": "https://linux.do/t/topic/1424398?page=3",
+      "title": "【鸭老师】三句话，让我推掉了一个月赚20万的AI动漫的小项目（避坑帖） / 第3页",
+      "excerpt": "鸭老师问一下，现在是在用ai出段子做视频，先跑流量看看，视频号，快手爆的能上了几十万，凑合的也能上个几万播放。b站几十流量感觉正常，小红书大多两三千。",
+      "whyItMatters": "Adds concrete cross-platform traffic-testing context around his production decisions and platform realism."
+    },
+    {
+      "id": "LD-1449130-1",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet + exa-hit",
+      "confidence": "high",
+      "url": "https://linux.do/t/topic/1449130",
+      "title": "鸭老师应当有话说，虎嗅：第一批做AI漫剧的中年人，已经财务自由了?",
+      "excerpt": "1.靠这个财务自由不可能的，都是骗人的，但是能赚到钱是真的。平台是真给钱，每个人基础不一样，赚多赚少的问题，号能起来也跟自己的作品质量等有关系。",
+      "whyItMatters": "Still the clearest direct anti-hype / conditional-profitability statement in the corpus."
+    },
+    {
+      "id": "LD-882423-2B",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet + exa-hit",
+      "confidence": "medium",
+      "url": "https://linux.do/t/topic/882423?page=2",
+      "title": "【鸭老师】新的AI动画第一集做好了，人物完全保持一致性 / 第2页",
+      "excerpt": "我是用mj控图，我现在已经是mj王了，别的都不好使，这个不是一两句话说的清楚，保持风格和保持人物一致性每次都要垫多张图并且微调参数，要不然就蹦。",
+      "whyItMatters": "Adds concrete workflow detail showing that character/style consistency is a labor-intensive control problem, not a solved default."
+    },
+    {
+      "id": "LD-1160660-5B",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet + exa-hit",
+      "confidence": "medium",
+      "url": "https://linux.do/t/topic/1160660",
+      "title": "【鸭老师】AI漫剧的政策终于来了，这不妥妥送钱么？",
+      "excerpt": "开局一张图，内容全靠编，我们团队这两天就去联系红果平台负责人拿个ip玩玩，这个价格已经是市场价了，朋友刚签了一个腾讯的漫画ip项目，有什么进展，收益如何。",
+      "whyItMatters": "Keeps the commercialization/IP thread alive, but page-level attribution still needs tighter verification before promotion to high confidence."
+    },
+    {
+      "id": "LD-1967898-2",
+      "kind": "primary",
+      "captureMethod": "tavily-search-snippet + exa-hit",
+      "confidence": "low",
+      "url": "https://linux.do/t/topic/1967898?page=2",
+      "title": "普通人做AI漫短剧的出路在哪里？ / 第2页",
+      "excerpt": "就是批量落地的能力，花时间做五六分钟的短片和完成120分钟左右的长内容是不一样的，短的可以做精细，但长的需要做好分工和配合。",
+      "whyItMatters": "Very strong industrialization clue; attribution still needs stronger confirmation before it can anchor a hard conclusion."
+    }
+  ]
+}

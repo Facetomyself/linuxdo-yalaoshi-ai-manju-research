@@ -4,8 +4,8 @@
 
 ## 当前状态
 
-- 状态：`Phase 0 / 已建仓`
-- 时间：`2026-04-15`
+- 状态：`Phase 1 / 补抓一级来源中`
+- 最近更新：`2026-04-16`
 - 仓库：`https://github.com/Facetomyself/linuxdo-yalaoshi-ai-manju-research`
 - 性质：**长期任务，不是一次性总结**
 - 当前产出：
@@ -13,6 +13,8 @@
   - 方法论与迭代路线
   - 初始来源登记表
   - 首轮分析备忘
+  - 首版《高置信观点清单》
+  - 二轮来源补抓记录
   - 可继续接力的长期任务文档
 
 ## 这个仓库要解决什么问题
@@ -98,10 +100,12 @@
 ├── docs/
 │   ├── 01-initial-analysis.md
 │   ├── 02-methodology-and-roadmap.md
-│   └── 03-source-register.md
+│   ├── 03-source-register.md
+│   └── 04-high-confidence-viewpoint-list.md
 └── data/
     └── source-captures/
-        └── 2026-04-15-initial-capture.json
+        ├── 2026-04-15-initial-capture.json
+        └── 2026-04-16-search-round1.json
 ```
 
 ## 来源与引用原则
@@ -157,6 +161,15 @@
 - `高置信 / 明确归属`
 - `中置信 / 归属待复核`
 - `线索级 / 只做后续入口`
+
+### 3) 2026-04-16 的二轮补抓仍是降级取证
+这一轮我继续尝试直取高优先级 thread，但当前环境下仍被 Cloudflare 403 挡住。
+
+因此，2026-04-16 这轮新增材料主要来自：
+
+- `search-layer` 显式 `exa,tavily,grok` 检索
+- 其中 `Exa` / `Tavily` 成功
+- `Grok` 当前返回 `502`，所以这轮仍属于**降级但可用**的来源补强
 
 ## 下一步里程碑
 

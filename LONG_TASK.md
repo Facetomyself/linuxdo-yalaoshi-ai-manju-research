@@ -120,7 +120,7 @@ https://github.com/Facetomyself/linuxdo-yalaoshi-ai-manju-research
 - [ ] 继续补抓 `1424398 / 1449130 / 1160660 / 882423 / 1937558 / 1967898` 的更多分页上下文
 - [ ] 把“明确为鸭老师本人发言”的摘录单独沉淀一份
 - [ ] 尝试寻找更多可公开访问的 yalaoshi 主题帖
-- [ ] 补一页《高置信观点清单》
+- [x] 补一页《高置信观点清单》（2026-04-16，见 `docs/04-high-confidence-viewpoint-list.md`）
 
 ### 中优先级
 - [ ] 建立“观点时间线”
